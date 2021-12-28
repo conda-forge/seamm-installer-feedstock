@@ -1,6 +1,6 @@
 {% set name = "seamm-installer" %}
-{% set version = "2021.12.16" %}
-{% set sha256 = "c2bedb5231042ac2c70b6c6cfc1f3d32c5664a59e6b4778d77e8d503f254096e" %}
+{% set version = "2021.12.27" %}
+{% set sha256 = "118a977e0f8ccf0ec1d4138b7113aa0b89e6ecaebfc47e5205e683aaed5fe71b" %}
 
 
 package:
@@ -21,10 +21,11 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.7
+    - python >=3.8
     - setuptools
   run:
-    - python >=3.7
+    - platformdirs
+    - python >=3.8
     - requests
     - tabulate
 
