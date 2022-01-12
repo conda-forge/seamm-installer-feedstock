@@ -1,6 +1,6 @@
 {% set name = "seamm-installer" %}
-{% set version = "2022.1.10" %}
-{% set sha256 = "8c89448f2de19e28898f04bb5c5353f2f4e159329257751acec988c0617ac88f" %}
+{% set version = "2022.1.11" %}
+{% set sha256 = "14bab075707de9e842b4b00a46f8f87ee60ab6b38ba899b8224d1104422d918e" %}
 
 
 package:
