@@ -1,6 +1,6 @@
 {% set name = "seamm-installer" %}
-{% set version = "2022.6.28.2" %}
-{% set sha256 = "bf10cccd085fc4a527cc190eac5d89afa8c5352d752a74c72eb22b8067fb16de" %}
+{% set version = "2022.6.30" %}
+{% set sha256 = "6224de2db7b65f50397a942aef7fcda336677bcdc24794d8df2394ed5b3fbff5" %}
 
 
 package:
@@ -24,6 +24,7 @@ requirements:
     - python >=3.8
     - setuptools
   run:
+    - alembic
     - platformdirs
     - python >=3.8
     - requests
