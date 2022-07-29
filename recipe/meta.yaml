@@ -26,7 +26,7 @@ requirements:
   run:
     - alembic
     - platformdirs
-    - pmb
+    - pmw
     - python >=3.8
     - requests
     - seamm-widgets
