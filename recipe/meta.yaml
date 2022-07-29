@@ -1,6 +1,6 @@
 {% set name = "seamm-installer" %}
-{% set version = "2022.7.27" %}
-{% set sha256 = "73d4050bae2ee04f0fc4082f56a210f9c2df5bb8a38f0805ffc26d8e27b47d7f" %}
+{% set version = "2022.7.29" %}
+{% set sha256 = "52b64d0766d53be790a444b339b778dc2033c67593e4f05fb09dd583fa7c842b" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://files.pythonhosted.org/packages/fd/73/309ee4b3e70bd4d8a687d587139ba299ac22b5ee5a22f8833a249ee9bcc2/seamm-installer-2022.7.27.tar.gz
+  url: https://files.pythonhosted.org/packages/9c/d6/7c46bbfcfee23670e84f0993b1f75d17a37941407d664ba6690b54a81b8b/seamm-installer-2022.7.29.tar.gz
   sha256: {{ sha256 }}
 
 build:
@@ -26,8 +26,10 @@ requirements:
   run:
     - alembic
     - platformdirs
+    - pmb
     - python >=3.8
     - requests
+    - seamm-widgets
     - tabulate
 
 test:
