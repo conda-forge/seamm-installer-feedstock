@@ -1,6 +1,6 @@
 {% set name = "seamm-installer" %}
-{% set version = "2022.7.29" %}
-{% set sha256 = "52b64d0766d53be790a444b339b778dc2033c67593e4f05fb09dd583fa7c842b" %}
+{% set version = "2022.7.29.1" %}
+{% set sha256 = "8c205007b61823036e247c0bdb6bc25b6e43f228787de6bbaee85c9bde96baaf" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://files.pythonhosted.org/packages/9c/d6/7c46bbfcfee23670e84f0993b1f75d17a37941407d664ba6690b54a81b8b/seamm-installer-2022.7.29.tar.gz
+  url: https://files.pythonhosted.org/packages/68/9a/f660ceba43f57d3cc2e4d71a4313508f591c217f697136d57f357c1c3a52/seamm-installer-2022.7.29.1.tar.gz
   sha256: {{ sha256 }}
 
 build:
