@@ -8,7 +8,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://files.pythonhosted.org/packages/68/9a/f660ceba43f57d3cc2e4d71a4313508f591c217f697136d57f357c1c3a52/seamm-installer-2022.7.29.1.tar.gz
+  url: https://files.pythonhosted.org/packages/9e/cf/97c67ab028531fa2a247281d0f67c8c74e112ee775c186c359959ba3b25e/seamm-installer-2022.8.22.tar.gz
   sha256: {{ sha256 }}
 
 build:
