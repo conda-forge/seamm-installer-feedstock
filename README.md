@@ -1,11 +1,11 @@
-About seamm-installer
-=====================
+About seamm-installer-feedstock
+===============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/seamm-installer-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/molssi-seamm/seamm_installer
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/seamm-installer-feedstock/blob/main/LICENSE.txt)
 
 Summary: The installer/updater for SEAMM (Simulation Environment for Atomistic and Molecular Simulations).
 
