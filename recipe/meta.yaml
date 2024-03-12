@@ -1,6 +1,6 @@
 {% set name = "seamm-installer" %}
-{% set version = "2023.11.3" %}
-{% set sha256 = "8bef7b07bc9249152965dce04d7e4adfbe65c9742d532f43b3bfc7d3ff27c3d6" %}
+{% set version = "2024.3.11" %}
+{% set sha256 = "faef00d33ae7ff826bbdf74fa3e3544ceb85b97e9e33534fee6e12d7885692f7" %}
 
 
 package:
@@ -30,6 +30,7 @@ requirements:
     - python >=3.8
     - requests
     - seamm-widgets
+    - semver
     - tabulate
 
 test:
