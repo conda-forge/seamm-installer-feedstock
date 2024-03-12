@@ -30,6 +30,7 @@ requirements:
     - python >=3.8
     - requests
     - seamm-widgets
+    - semver
     - tabulate
 
 test:
