@@ -1,6 +1,6 @@
 {% set name = "seamm-installer" %}
-{% set version = "2024.3.17" %}
-{% set sha256 = "1256bc3bc0c4d6697de9b78f8cca871549475f9bfe495ec3a4b82a9343de0a11" %}
+{% set version = "2024.4.22" %}
+{% set sha256 = "9e95ff1002253c9febaf008f72286560fbc5b1296a35044e085cefddac36d13a" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/seamm-installer-{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
